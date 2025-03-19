@@ -1,0 +1,14 @@
+{
+    "target": "pod/client-797cdd56f9-r55p5",
+    "feature": {
+      "env": true,
+      "fs": "read",
+      "network": {
+        "incoming": {
+            "mode": "steal"
+        },
+        "outgoing" : true
+      }
+    }
+  }
+  

@@ -17,7 +17,7 @@ body {
 }
 
 .title {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
   font-weight: 500;
 }
 
@@ -36,10 +36,8 @@ h2.title {
   font-weight: 600;
 }
 
-
-
 .app {
-  background: #FFF;
+  background: #fff;
   border-radius: 10px;
   border: 2px #0e203d solid;
   max-width: 700px;
@@ -119,7 +117,7 @@ h2.title {
   font-size: 1.1em;
 }
 
-.app-todos li+li {
+.app-todos li + li {
   margin-top: 1em;
   border-top: 1px #d3d3d3 solid;
   padding-top: 1em;
@@ -146,12 +144,6 @@ h2.title {
   padding: 0.25em 1em;
 }
 
-.okteto {
-  margin-top: 4em;
-  width: 100px;
-  height: auto;
-}
-
 .modal {
   position: fixed;
   top: 0;
@@ -170,11 +162,12 @@ h2.title {
 }
 
 .modal-dialog {
-  background: #FFF;
+  background: #fff;
   border-radius: 10px;
   border: 2px #0e203d solid;
   max-width: 700px;
-  box-shadow: 1px 1px 0 0 #0e203d, 2px 2px 0 0 #0e203d, 3px 3px 0 0 #0e203d, 4px 4px 0 0 #0e203d, 5px 5px 0 0 #0e203d, 6px 6px 0 0 #0e203d;
+  box-shadow: 1px 1px 0 0 #0e203d, 2px 2px 0 0 #0e203d, 3px 3px 0 0 #0e203d,
+    4px 4px 0 0 #0e203d, 5px 5px 0 0 #0e203d, 6px 6px 0 0 #0e203d;
   width: 90%;
   padding: 2em;
   position: relative;
