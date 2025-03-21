@@ -1,17 +1,23 @@
-# Todolist
+# Todo List Application
 
-A todo list application to experiment with.
+A todo list application designed for experimentation and learning.
 
-## Notes on migrating the app
+## Deploying on a Kubernetes cluster
 
-The application's microservices are packaged as helm charts.
+The application is built using a microservices architecture, with each service packaged as a Helm chart.
 
-Helm install command:
+To deploy the application, use the following Helm commands:
 
-```
+```bash
 helm upgrade --install db db/chart
 helm upgrade --install server server/chart
 helm upgrade --install client client/chart
 ```
 
-To build images locally: `docker build -t rinkiyakedad/todolist-client --platform=linux/amd64 .`
+## Building Docker Images Locally
+
+To build Docker images locally, run the following command from the respective service directory:
+
+```bash
+docker build -t rinkiyakedad/todolist-<client/server> --platform=linux/amd64 .
+```
