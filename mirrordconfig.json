@@ -1,5 +1,5 @@
 {
-  "target": "pod/client-797cdd56f9-r55p5",
+  "target": "deployment/client",
   "feature": {
     "network": {
       "incoming": "steal"

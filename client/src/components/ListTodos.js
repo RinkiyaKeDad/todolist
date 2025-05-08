@@ -42,7 +42,7 @@ const ListTodos = () => {
                 <span className="app-todos-title">{todo.description}</span>
                 <div class="app-todos-buttons">
                   <EditTodo todo={todo} />
-                  {/* <button
+                  <button
                                         className="submit-button submit-button-small delete"
                                         onClick={() => deleteTodo(todo.todo_id)}
                                     >
@@ -57,11 +57,12 @@ const ListTodos = () => {
                                             stroke-linecap="round"
                                             stroke-linejoin="round"
                                             class="lucide lucide-x"
+                                            color="black"
                                         >
                                             <path d="M18 6 6 18" />
                                             <path d="m6 6 12 12" />
                                         </svg>
-                                    </button> */}
+                                    </button>
                 </div>
               </li>
             ))}
